@@ -109,7 +109,13 @@
 
 @media screen and (max-width: 600px) {
    .history {
-       height: 120vh;
+       height: 150vh;
+
+       .nav-wrapper {
+           .nav {
+               max-width: 90vw;
+           }
+       }
       .main {
          #main-text {
             max-width: 90vw;
@@ -119,7 +125,7 @@
       .img-strip {
         .images {
             img {
-                width: 38vw;
+                width: 100vw;
             }
         }
     }
