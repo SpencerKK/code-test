@@ -1,0 +1,57 @@
+.hero {
+    font-family: "Bebas Neue";
+    background-image: url("../../assets/img/hero/mountain.png");
+    background-position: center;
+    background-position-y: top;
+    height: 100vh;
+    .nav {
+        max-width: 70vw;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+
+        img {
+            width: 2.5em;
+            align-self: center;
+        }
+        .nav-links {
+            display: flex;
+            p {
+                padding: 1em;
+                color: #fff;
+                text-decoration: underline;
+
+                &:hover {
+                    cursor: pointer;
+                    color: #000;
+                }
+            }
+        }
+    }
+
+    .hero-text {
+        text-align: center;
+        margin-top: 30vh;
+
+
+        h1 {
+        font-size: 8em;
+        line-height: 0.8;
+        font-weight: 100;
+        }
+
+        #mountains {
+            color: #3F4F6C;
+        }
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .hero {
+        .hero-text {
+            h1 {
+                font-size: 5em;
+            }
+        }
+    }
+}
